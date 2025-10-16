@@ -13,7 +13,7 @@ function MyNavbar() {
       <Container fluid>
         <Navbar.Brand className='decoration-white-400' href="#"><img
          src='./src/assets/ngo1.png' alt="Needytail Logo"
-              className="h-24 w-auto"/></Navbar.Brand>
+              className="h-24 w-80"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -35,7 +35,7 @@ function MyNavbar() {
             </NavDropdown>
           </Nav>
           <div>
-            <button className='background-decoration-black' variant='Success' >Donate</button>
+            <Button className='me-3' variant='success' >Donate</Button>
           </div>
           <Form className="d-flex">
             <Form.Control
