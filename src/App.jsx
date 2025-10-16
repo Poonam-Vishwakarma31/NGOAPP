@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import MyNavbar from './Navbar'
 import HeroSection from './Hero/Hero'
+import Info from './components/Info'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <div className="App  dark:bg-gray-50 dark:text-white min-h-screen">
       <MyNavbar />
       <HeroSection/>
+      <Info/>
     </div>
   )
 }
