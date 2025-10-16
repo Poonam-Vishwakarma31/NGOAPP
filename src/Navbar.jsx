@@ -12,7 +12,7 @@ function MyNavbar() {
     <Navbar  expand="lg"  className="  w-full h-25  bg-[#14504B] text-white shadow-md">
       <Container fluid>
         <Navbar.Brand className='decoration-white-400' href="#"><img
-         src='./src/assets/ngo6.png' alt="Needytail Logo"
+         src='./src/assets/ngo1.png' alt="Needytail Logo"
               className="h-24 w-auto"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -21,22 +21,22 @@ function MyNavbar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
+            <Nav.Link className='text-white' href="#action1">Home</Nav.Link>
+            <Nav.Link className='text-white' href="#action2">About Us</Nav.Link>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
+              <NavDropdown.Item href="#action3">Our Work</NavDropdown.Item>
+              <NavDropdown.Item className='text-black' href="#action4">
+                Volunteer
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
+              <NavDropdown.Item className='text-black' href="#action5">
+                Donate
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
           </Nav>
+          <div>
+            <button className='background-decoration-black' variant='Success' >Donate</button>
+          </div>
           <Form className="d-flex">
             <Form.Control
               type="search"
@@ -44,7 +44,7 @@ function MyNavbar() {
               className="me-2"
               aria-label="Search"
             />
-            <Button className='decoration-black-200' variant="outline-success">Search</Button>
+            <Button className='background-decoration-black' variant='outline-success' >Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
