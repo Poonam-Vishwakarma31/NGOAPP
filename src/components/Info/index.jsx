@@ -11,7 +11,7 @@ const Info = () => {
             "Until one has loved an animal, a part of one's soul remains
             unawakened."
           </h2>
-          <p className="text-sm text-clip text-gray-7--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------00">
+          <p className="text-sm text-clip text-gray-700">
             At Needy Tail, we believe every life—no matter how
             small—deserves love, care, and a safe home. Our mission is to<br/>
             rescue, protect, and nurture animals in need while spreading
