@@ -9,7 +9,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function MyNavbar() {
   return (
-    <Navbar  expand="lg"  className="  w-full h-25  bg-[#14504B] text-white shadow-md">
+    <Navbar  expand="lg"  className="  w-full h-25  bg-[#282E2A] text-white shadow-md">
       <Container fluid>
         <Navbar.Brand className='decoration-white-400' href="#"><img
          src='./src/assets/ngo1.png' alt="Needytail Logo"
@@ -23,7 +23,7 @@ function MyNavbar() {
           >
             <Nav.Link className='text-white' href="#action1">Home</Nav.Link>
             <Nav.Link className='text-white' href="#action2">About Us</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
+            <NavDropdown  style={{ color: "white" }} title="More" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Our Work</NavDropdown.Item>
               <NavDropdown.Item className='text-black' href="#action4">
                 Volunteer

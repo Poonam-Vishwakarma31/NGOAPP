@@ -5,9 +5,9 @@ import founder from "../../assets/founder.webp";
 const Info = () => {
   return (
     <>
-      <div className=" flex justify-evenly  p-4 w-full h-screen bg-cover bg-gray-200   ">
+      <div className=" flex justify-evenly my-20 p-4 w-full h-screen bg-cover bg-[#FDFCFB] ">
         <div className=" flex flex-col justify-between p-2 ">
-          <h2 className="text-3xl  font-semibold  text-red-700 italic ">
+          <h2 style={{ color: '#e7820eff' }} className="text-orange-700 font-semibold italic">
             "Until one has loved an animal, a part of one's soul remains
             unawakened."
           </h2>
@@ -29,8 +29,8 @@ const Info = () => {
             />
           </div>
         </div>
-        <div className="bg-gray-200 text-black flex flex-col space-y-6 me-4">
-          <section className="bg-[#f0fdfa] rounded-2xl shadow-md p-2 text-center hover:shadow-lg transition border-[#14504B]">
+        <div className="bg-[#FDFCFB] text-black flex flex-col space-y-6 me-4">
+          <section className="bg-[#f0fdfa] rounded-2xl  p-2 text-center shadow-lg transform hover:scale-[1.02] transition-all duration-300  border-[#14504B]">
             <img
               src={founder}
               className="w-32 h-32 rounded-full mx-auto mb-4"
@@ -38,7 +38,7 @@ const Info = () => {
             <h3>Kartik Singh Tanwar</h3>
             <p>Founder & Animal Welfare Advocate</p>
           </section>
-          <section className="bg-[#f0fdfa] rounded-2xl shadow-md p-2 mb-4 text-center hover:shadow-lg transition border-[#14504B]">
+          <section className="bg-[#f0fdfa] rounded-2xl  p-2 mb-4 text-center shadow-lg transform hover:scale-[1.02] transition-all duration-300 border-[#14504B]">
             <img
               src={founder}
               className="w-32 h-32 rounded-full mx-auto mb-4"

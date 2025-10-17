@@ -5,7 +5,7 @@ import heroImage from "../assets/hero.jpg"; // Replace with your image path
 const HeroSection = () => {
   return (
     <div
-      className="relative w-full h-screen bg-cover bg-center"
+      className="relative w-full h-[110vh] bg-cover bg-center"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
       {/* Overlay */}
