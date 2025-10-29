@@ -1,6 +1,6 @@
 // HeroSection.jsx
 import React from "react";
-import heroImage from "../assets/hero.jpg"; // Replace with your image path
+import heroImage from '../../assets/hero.jpg'  // Replace with your image path
 
 const HeroSection = () => {
   return (

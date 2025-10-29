@@ -3,10 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import MyNavbar from './Navbar'
-import HeroSection from './Hero/Hero'
+import HeroSection from './components/Hero/Hero.jsx'
 import Info from './components/Info'
 import ActionCards from './components/Cards/cards'
-import Footer from './components/Footer/footer'
+import Footer from './Footer/footer.jsx'
 
 function App() {
 
