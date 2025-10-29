@@ -6,6 +6,7 @@ import MyNavbar from './Navbar'
 import HeroSection from './Hero/Hero'
 import Info from './components/Info'
 import ActionCards from './components/Cards/cards'
+import Footer from './components/Footer/footer'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <HeroSection/>
       <Info/>
       <ActionCards/>
+      <Footer/>
     </div>
   )
 }
