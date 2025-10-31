@@ -5,21 +5,19 @@ const Donate = ({ onDonateClick }) => {
   return (
     <div
       id="donate"
-      className="relative bg-[#8B7422] min-h-[50vh] flex items-center justify-center flex-col mt-8 px-4 sm:px-6 lg:px-12 text-center"
+      className="relative bg-[#8B7422] min-h-[70vh] flex items-center justify-center flex-col mt-8 px-4 sm:px-6 lg:px-12 text-center"
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl">
-        <h5 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+        <h5 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl  mb-4">
           Donate to Needy Tail
         </h5>
 
-        <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-medium leading-relaxed mb-6">
-          Your generous donation helps us rescue, care for, and find loving
-          homes for animals in need. Every contribution, big or small, makes a
-          significant impact on the lives of these vulnerable creatures.
+        <p className="text-white text-4xl sm:text-base md:text-base lg:text-5xl font-medium font-bold leading-relaxed mb-6">
+           Every contribution, big or small, makes a significant impact on the lives of these vulnerable creatures.
         </p>
 
         <div className="mt-6">
