@@ -32,7 +32,7 @@ function MyNavbar() {
            
           </Nav>
           <div>
-            <Button className='me-3 w-38 h-12 ' variant='success' href='#donate' >Donate Now</Button>
+            <Button className='me-3 w-38  ' variant='success' href='#donate' >Donate Now</Button>
           </div>
           
           
