@@ -27,12 +27,12 @@ function MyNavbar() {
             <NavLink className='text-white mr-3 mt-2 text-decoration-none' to='/'>Home</NavLink>
             <NavLink className='text-white mr-3 mt-2 text-decoration-none' to="/about">About Us</NavLink>
             <NavDropdown  style={{ color: "white" }} title="More" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Our Work</NavDropdown.Item>
-              <NavDropdown.Item className='text-black' href="#action4">
+              <NavDropdown.Item as={Link} to='/ourwork'>Our Work</NavDropdown.Item>
+              <NavDropdown.Item className='text-black' as={Link} to='/volunteer'>
                 Volunteer
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className='text-black' href="#action5">
+              <NavDropdown.Item className='text-black' as={Link} to='/donate'>
                 Donate
               </NavDropdown.Item>
             </NavDropdown>

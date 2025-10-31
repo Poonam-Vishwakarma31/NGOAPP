@@ -3,13 +3,12 @@ import React from "react";
 const About = () => {
   return (
     <div className="min-h-screen flex flex-col md:flex-row md:space-x-20 space-y-10 
-    md:space-y-0 bg-[#F5F5F5] p-5 md:p-20 items-center justify-center">
-
+    md:space-y-0 bg-[#F5F5F5]  md:p-20 items-center justify-center">
        {/* Text Section */}
       <div className="bg-[#FFFDD0] p-6 md:p-10 w-full md:w-1/2 rounded-lg shadow-lg">
-        <h1 style={{ color: "orange" }} className="text-3xl md-text-4xl font-bold mb-8">
+        <h2 style={{ color: "orange" }} className="text-3xl md-text-4xl font-bold mb-8">
           About Needytail
-        </h1>
+        </h2>
         <p className="text-base  md:text-lg mt-5 mb-4 text-[#282E2A] leading-relaxed">
           Needytail is a non-profit organization dedicated to protecting and
           improving the lives of animals in need. We work tirelessly to provide
