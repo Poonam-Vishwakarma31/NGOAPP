@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-export default function ActionCards() {
+export default function ActionCards({onDonateClick}) {
 const cards = [
 {
 key: "volunteer",
@@ -18,7 +18,7 @@ title: "Donate",
 desc: "Support our shelter with a one-time or monthly donation. Every contribution helps with food and medical care.",
 img: "/src/assets/donate.webp",
 cta: "Donate Now",
-onClick: () => alert("Navigate to Donate page / open payment flow")
+onClick: () => onDonateClick(),
 },
 {
 key: "adopt",

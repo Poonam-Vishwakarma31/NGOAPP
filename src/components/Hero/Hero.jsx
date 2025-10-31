@@ -20,7 +20,12 @@ const HeroSection = () => {
           Help Ever, Hurt Never
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300">
+          <button
+           onClick={()=>{
+            const section=document.getElementById('donate');
+          section?.scrollIntoView({behavior:'smooth'})
+            }}
+           className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300">
             Donate Now
           </button>
           <button className="bg-white hover:bg-gray-200 text-black font-semibold px-6 py-3 rounded-lg transition duration-300">

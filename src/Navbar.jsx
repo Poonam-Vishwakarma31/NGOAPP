@@ -10,45 +10,32 @@ import { NavLink } from 'react-router-dom';
 
 
 
+
 function MyNavbar() {
   return (
     <Navbar  expand="lg"  className="  w-full h-25  bg-[#282E2A] text-white shadow-md">
       <Container fluid>
-        <Navbar.Brand className='decoration-white-400' href="#"><img
+        <Navbar.Brand className='decoration-white-400' as={Link} to='/'><img
          src='./src/assets/ngo1.png' alt="Needytail Logo"
               className="h-24 w-80"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="ms-auto mr-4 my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <NavLink className='text-white mr-3 mt-2 text-decoration-none' to='/'>Home</NavLink>
-            <NavLink className='text-white mr-3 mt-2 text-decoration-none' to="/about">About Us</NavLink>
-            <NavDropdown  style={{ color: "white" }} title="More" id="navbarScrollingDropdown">
-              <NavDropdown.Item as={Link} to='/ourwork'>Our Work</NavDropdown.Item>
-              <NavDropdown.Item className='text-black' as={Link} to='/volunteer'>
-                Volunteer
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item className='text-black' as={Link} to='/donate'>
-                Donate
-              </NavDropdown.Item>
-            </NavDropdown>
+            <NavLink className='text-white text-semibold mr-3 mt-2 text-decoration-none' to='/'>Home</NavLink>
+            <NavLink className='text-white text-semibold mr-3 mt-2 text-decoration-none' to="/about">About Us</NavLink>
+            <NavLink className='text-white text-semibold mr-3 mt-2 text-decoration-none' to="/contact">Contact Us</NavLink>
+            <NavLink className='text-white text-semibold mr-3 mt-2 text-decoration-none' to="/ourwork">Our Work</NavLink>
+           
           </Nav>
           <div>
-            <Button className='me-3' variant='success' >Donate</Button>
+            <Button className='me-3 w-38 h-12 ' variant='success' href='#donate' >Donate Now</Button>
           </div>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button className='background-decoration-black' variant='outline-success' >Search</Button>
-          </Form>
+          
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>

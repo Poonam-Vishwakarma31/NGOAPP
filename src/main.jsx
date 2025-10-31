@@ -9,7 +9,7 @@ import Home from "./Pages/Home.jsx";
 import About from "./Pages/About.jsx";
 import Volunteer from "./Pages/Volunteer.jsx";
 import OurWork from './Pages/OurWork.jsx';
-import Donate from "./Pages/Donate.jsx";
+import Donate from "./components/Donate/Donate.jsx";
 import Contact from "./Pages/Contact.jsx";
 
 const router = createBrowserRouter([

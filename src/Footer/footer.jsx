@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#282E2A] text-white text-center p-4 mt-8">
+    <footer className="bg-[#282E2A] text-white text-center p-4 mt-0">
         <p>&copy; 2024 Needytail. All rights reserved.</p>
          <div className="container mx-auto mt-10 px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
 
@@ -33,7 +33,8 @@ const Footer = () => {
           <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
           <ul className="space-y-2">
             <li><Link to="/about" className="hover:text-white">About Us</Link></li>
-            <li><Link to="/donate" className="hover:text-white">Donate</Link></li>
+            <li><Link to="/ourwork" className="hover:text-white">Our Work</Link></li>
+            <li><Link to="/volunteer" className="hover:text-white">Volunteer</Link></li>
             <li><Link to="/contact" className="hover:text-white">Contact</Link></li>
           </ul>
               </div>
