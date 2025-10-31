@@ -4,6 +4,9 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -21,8 +24,8 @@ function MyNavbar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link className='text-white' href="#action1">Home</Nav.Link>
-            <Nav.Link className='text-white' href="#action2">About Us</Nav.Link>
+            <NavLink className='text-white mr-3 mt-2 text-decoration-none' to='/'>Home</NavLink>
+            <NavLink className='text-white mr-3 mt-2 text-decoration-none' to="/about">About Us</NavLink>
             <NavDropdown  style={{ color: "white" }} title="More" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Our Work</NavDropdown.Item>
               <NavDropdown.Item className='text-black' href="#action4">

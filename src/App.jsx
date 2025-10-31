@@ -9,6 +9,7 @@ import ActionCards from './components/Cards/cards'
 import Footer from './Footer/footer.jsx'
 import { Home } from 'lucide-react'
 import HomePage from './Pages/Home.jsx'
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="App  dark:bg-[#FDFCFB] dark:text-white min-h-screen">
       <MyNavbar />
-      <HomePage/>
+      <Outlet />
       <Footer/>
     </div>
   )
