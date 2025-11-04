@@ -44,9 +44,9 @@ const Footer = () => {
             <div>
                 <h4 className="font-bold mb-2">Follow Us</h4>
                  <div className="flex space-x-4 mt-4 ml-29 mb-4">
-            <a href="#" className="hover:text-white"><Facebook size={22} /></a>
-            <a href="#" className="hover:text-white"><Instagram size={22} /></a>
-            <a href="#" className="hover:text-white"><Youtube size={22} /></a>
+            <a href="https://www.facebook.com/NEEDYTAILFOUNDATION/" target='blank' rel="noopener noreferrer" className="hover:text-white"><Facebook size={22} /></a>
+            <a href="https://www.instagram.com/needytail_foundation/?hl=en" target='blank' rel='noopener noreferrer' className="hover:text-white"><Instagram size={22} /></a>
+            <a href="https://www.youtube.com/@Needytailfoundation" target='_blank'  rel="noopener noreferrer" className="hover:text-white"><Youtube size={22} /></a>
           </div>
             </div>
 
