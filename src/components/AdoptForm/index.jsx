@@ -15,7 +15,7 @@ const AdoptPopup = ({onClose}) => {
           className="w-full h-40 object-cover rounded-md mb-4"
         />
         <h2
-          style={{ color: "gray" }}
+          style={{ color: "brown" }}
           className="text-2xl font-bold mb-4 text-gray-800 text-center"
         >
           Pet Adoption Form
@@ -53,9 +53,9 @@ const AdoptPopup = ({onClose}) => {
           />
           <button
             type="submit"
-            className="bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-lg"
+            className="bg-teal-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-lg"
           >
-            Adopt
+            Submit
           </button>
         </form>
       </div>

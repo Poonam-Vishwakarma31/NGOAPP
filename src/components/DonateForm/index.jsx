@@ -11,7 +11,7 @@ const DonatePopup = ({ onClose }) => {
           &times;
         </button>
 
-        <h2 style={{color:'gray'}} className="text-2xl font-bold mb-4 text-gray-800 text-center">
+        <h2 style={{color:'brown'}} className="text-2xl font-bold mb-4 text-gray-800 text-center">
           Make a Donation
         </h2>
 
@@ -34,7 +34,7 @@ const DonatePopup = ({ onClose }) => {
           />
           <button
             type="submit"
-            className="bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-lg"
+            className="bg-teal-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-lg"
           >
             Donate
           </button>
