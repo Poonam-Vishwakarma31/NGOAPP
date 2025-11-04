@@ -11,6 +11,7 @@ import Volunteer from "./Pages/Volunteer.jsx";
 import OurWork from './Pages/OurWork.jsx';
 import Donate from "./components/Donate/Donate.jsx";
 import Contact from "./Pages/Contact.jsx";
+import Adopt from './Pages/Adopt.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
       {path: "ourwork", element: <OurWork /> },
       { path: "donate", element: <Donate /> },
       { path: "contact", element: <Contact /> },
+      {path: "adopt", element: <Adopt /> },
     ],
   },
 ]);
