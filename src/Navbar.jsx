@@ -29,6 +29,7 @@ function MyNavbar() {
             <NavLink className='text-white text-semibold mr-3 mt-2 text-decoration-none' to="/about">About Us</NavLink>
             <NavLink className='text-white text-semibold mr-3 mt-2 text-decoration-none' to="/contact">Contact Us</NavLink>
             <NavLink className='text-white text-semibold mr-3 mt-2 text-decoration-none' to="/ourwork">Our Work</NavLink>
+            <NavLink className='text-white text-semibold mr-3 mt-2 text-decoration-none' to="/adopt">Adopt a Pet</NavLink>
            
           </Nav>
           <div>

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Adopt = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#F5F5F5]  md:p-20 space-y-10">

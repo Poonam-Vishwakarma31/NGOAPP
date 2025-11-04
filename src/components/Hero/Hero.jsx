@@ -2,7 +2,7 @@
 import React from "react";
 import heroImage from '../../assets/hero.jpg'  // Replace with your image path
 
-const HeroSection = () => {
+const HeroSection = ({onAdoptClick}) => {
   return (
     <div
       className="relative w-full h-[110vh] bg-cover bg-center"
@@ -28,7 +28,9 @@ const HeroSection = () => {
            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300">
             Donate Now
           </button>
-          <button className="bg-white hover:bg-gray-200 text-black font-semibold px-6 py-3 rounded-lg transition duration-300">
+          <button 
+           onClick={()=> onAdoptClick()}
+          className="bg-white hover:bg-gray-200 text-black font-semibold px-6 py-3 rounded-lg transition duration-300">
             Adopt Now
           </button>
         </div>

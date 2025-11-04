@@ -2,6 +2,7 @@ import React from "react";
 
 
 const Donate = ({ onDonateClick }) => {
+  
   return (
     <div
       id="donate"
