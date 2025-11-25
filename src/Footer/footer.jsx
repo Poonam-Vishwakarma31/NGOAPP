@@ -21,11 +21,7 @@ const Footer = () => {
                 </div>
                 
 
-                 <div className="flex space-x-4 mt-3 mb-4 ml-28">
-            <a href="#" className="hover:text-white">🌐</a>
-            <a href="#" className="hover:text-white">📘</a>
-            <a href="#" className="hover:text-white">📷</a>
-          </div>
+            
             </div>
 
             {/* Quick Links Section */}
